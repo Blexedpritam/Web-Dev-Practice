@@ -128,8 +128,4 @@ Developed as a beginner-friendly project to practice HTML forms, tables, and bas
 
 ---
 
-If you want, I can also:
 
-* suggest a **professional GitHub repo name**
-* write a **perfect commit message**
-* or improve your **index.html + CSS code** 👍
