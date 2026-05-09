@@ -2,9 +2,9 @@
 
 ## 📖 Overview
 
-This project demonstrates the implementation of structured HTML forms, tables, and beginner-friendly CSS concepts. It includes practical examples such as event registration forms, job application forms, personal information forms, and CSS positioning properties.
+This project demonstrates the implementation of structured HTML forms, tables, and beginner-friendly CSS concepts. It includes practical examples such as event registration forms, job application forms, personal information forms, CSS positioning properties, and CSS size units.
 
-The project is designed for beginners who want to practice webpage structure, form creation, table design, and CSS styling techniques.
+The project is designed for beginners who want to practice webpage structure, form creation, table design, responsive layouts, and CSS styling techniques in depth.
 
 ---
 
@@ -77,6 +77,8 @@ This project also contains beginner-level HTML and CSS practice sections.
 - Padding and Margin
 - Font Styling
 - Hover Effects
+- Table Styling
+- Form Styling
 
 ---
 
@@ -99,14 +101,40 @@ Keeps elements fixed on the screen even during scrolling.
 ## 🔹 Sticky
 Makes elements stick to a position while scrolling.
 
-These examples help beginners understand layout behavior and webpage positioning techniques.
+These examples help beginners understand webpage layout behavior and positioning techniques.
+
+---
+
+# 📏 CSS Size Units in Depth
+
+This project also includes detailed practice and examples of CSS size units for responsive and flexible web design.
+
+## 🔹 px (Pixels)
+Fixed-size unit used for precise sizing.
+
+## 🔹 % (Percentage)
+Relative unit based on parent element size.
+
+## 🔹 vw (Viewport Width)
+Responsive unit based on browser width.
+
+## 🔹 vh (Viewport Height)
+Responsive unit based on browser height.
+
+## 🔹 em
+Relative unit based on the font size of the parent element.
+
+## 🔹 rem
+Relative unit based on the root (`html`) font size.
+
+These examples help beginners understand responsive design concepts and scalable layouts.
 
 ---
 
 # 🛠️ Technologies Used
 
 - **HTML5** – Webpage structure and forms
-- **CSS3** – Styling and positioning concepts
+- **CSS3** – Styling, positioning, and responsive sizing
 - Static frontend project (No backend)
 
 ---
@@ -117,5 +145,5 @@ These examples help beginners understand layout behavior and webpage positioning
 project-folder/
 │
 ├── index.html        # Main HTML file
-├── styles.css        # CSS styling and positioning file
+├── styles.css        # CSS styling and layout file
 └── README.md         # Project documentation
