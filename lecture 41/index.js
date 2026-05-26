@@ -104,7 +104,7 @@ switch(num){
     case 2:console.log('B');
     break;
     case 3:console.log('C');
-    break;
+    // break;
     case 4:console.log('D');
     break;
     default: console.log('F');
