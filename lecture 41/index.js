@@ -56,5 +56,56 @@
 // console.log( 2 | 5);
 // console.log(~(0));
 // console.log( 2 ^ 2);
-console.log(10 >> 1);  // right shift
-console.log(10 << 5); // left shift
+// console.log(10 >> 1);  // right shift
+// console.log(10 << 5); // left shift
+
+
+// conditionals
+
+// let age = 25;
+// if(age >= 18){
+//     console.log('you can vote');
+// }
+// else{
+//     console.log('you cannot vote');
+// }
+
+
+// let number = 4;
+// let age  = 18;
+
+// if(number == 1){
+//     console.log('A');
+// }
+// else if (number == 2){
+//     console.log('B');
+// }
+// else if (number == 3){
+//     console.log('C');
+// }
+// else if(number == 4){
+//     if(age >= 18){
+//        console.log('I can vote');
+//     }
+//     console.log('D');
+// }
+// else if (number == 5){
+//      console.log('E');
+// }
+// else{
+//     console.log('F');
+// }
+
+let num = 3;
+
+switch(num){
+    case 1:console.log('A');
+    break;
+    case 2:console.log('B');
+    break;
+    case 3:console.log('C');
+    break;
+    case 4:console.log('D');
+    break;
+    default: console.log('F');
+}
