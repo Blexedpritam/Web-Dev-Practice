@@ -42,8 +42,75 @@
 
 // class hoisting
 
-class Human {
+// class Human {
 
-}
+// }
 
-const obj1 = new Human();
+// const obj1 = new Human();
+
+// Function in citizens
+
+   // function greetMe(greet,fullName){
+   //     console.log('Hello' ,fullName);
+   //     greet();
+   // }
+   // function greet(){
+   //     console.log("Gretting for the day");
+   // }
+
+   // greetMe(greet,"Pritam");
+   // // greet();
+
+
+   //how to return functions
+
+   // function slove(number){
+   //     return  function(number){
+   //         return number*number;
+   //     }
+   // }
+   // let ans = slove(5);
+   // let fullAns = ans(10);
+   // console.log(fullAns);
+
+
+   //use function in array..!
+
+   // const arr =[
+   //     function(a,b){
+   //         return a+b;
+   //     },
+   //     function(a,b){
+   //         return a-b;
+   //     },
+   //     function(a,b){
+   //         return a*b;
+   //     }
+   // ];
+
+   // let first = arr[1];
+   // let ans =first(5,10);
+   // console.log(ans);
+
+
+   //obj in fun
+
+   // let obj ={
+   //     age :25,
+   //     wt :40,
+   //     ht : 180,
+   //     greet : ()=>{
+   //         console.log('Hello jee kaise ho sare ');
+   //     }
+
+   // }
+   // console.log(obj.age);
+   // obj.greet();
+
+   //function expression 
+   // var greet;
+  // console.log(greet);
+
+   // var greet = function(){
+  //     console.log("Namaste jii");
+  // }
