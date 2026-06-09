@@ -52,7 +52,27 @@
 // }
 // sayName("pritam");
 
-function slove(value ={age: 15, wt : 70, ht : 180,}){
-    console.log("Hello Jii",value);
+// function slove(value ={age: 15, wt : 70, ht : 180,}){
+//     console.log("Hello Jii",value);
+// }
+// slove();
+
+// function slove(value =["pritam" ,"rahul","rose"]){
+//     console.log("Hello Jii",value);
+// }
+// slove();
+
+// function slove(value ="Rahul"){
+//     console.log("Hello Jii -->",value);
+// }
+// slove(undefined);
+
+
+function getAge(){
+    return 180;
 }
-slove();
+
+function utility(name ="pritam" ,age =getAge()){
+    console.log(name , " " , age);
+}
+utility("rose" ,35);
