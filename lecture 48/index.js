@@ -1,78 +1,28 @@
-// class Human {
+console.log("pritam");
 
-//     //property
-//     age; //public 
-//     #ht = 180; //private 
-//     wt;
+console.log(Math.PI);
 
-//     constructor(newAge,newHeight,newWeight){
-//         this.age = newAge;
-//         this.#ht =newHeight;
-//         this.wt =newWeight;
-//     }
+console.log(Math.max(655,622,689,72,90));
 
-//     //Behaviour
-//     walking(){
-//         console.log("I am walking" ,this.#ht);   //class ke  andar obj ko acces krne ke THIS keyword ka use kkrte haii..
-//     }
-//     running(){
-//         console.log("I am runninng");
-//     }
+console.log(Math.min(70,80,90,12,28,45,11));
 
-//     get fetchHeight(){
-//         return this.#ht;
-//     }
-//     set modifyHeight(val){
-//         this.#ht  = val;
-//     }
-// }
+console.log(Math.round(1.6));
 
-// let obj = new Human(50,180,70);
-// console.log(obj.fetchHeight);
+console.log(Math.floor(1.9));
 
-// obj.walking();
+console.log(Math.ceil(1.9));
+
+console.log(Math.abs(-5));
+
+console.log(Math.sqrt(5));
+
+console.log(Math.pow(2,10));
+
+console.log(Math.sin(30));
+
+console.log(Math.cos(0));
+
+console.log(Math.tan(-260));
 
 
 
-
-// function sayName(myName ="Sumit kumar"){
-//     console.log("My name is :" ,myName);
-// } 
-
-// sayName("pritam kumar.");
-
-
-// function sayName(fName ="Bhagat",lName ="Singh"){
-//     console.log("My name is :",fName," ",lName);
-// }
-// sayName("pritam");
-
-// function sayName(fName ="Bhagat",lName = fName.toUpperCase()){
-//     console.log("My name is :",fName," ",lName);
-// }
-// sayName("pritam");
-
-// function slove(value ={age: 15, wt : 70, ht : 180,}){
-//     console.log("Hello Jii",value);
-// }
-// slove();
-
-// function slove(value =["pritam" ,"rahul","rose"]){
-//     console.log("Hello Jii",value);
-// }
-// slove();
-
-// function slove(value ="Rahul"){
-//     console.log("Hello Jii -->",value);
-// }
-// slove(undefined);
-
-
-function getAge(){
-    return 180;
-}
-
-function utility(name ="pritam" ,age =getAge()){
-    console.log(name , " " , age);
-}
-utility("rose" ,35);
